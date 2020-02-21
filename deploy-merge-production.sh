@@ -15,7 +15,7 @@ then
 	$BRANCH_TO_MERGE="master"
 fi
 
-cd $PROJECT_FOLDER$FOLDER
+cd $PROJECTS_FOLDER$FOLDER
 
 git checkout $BRANCH_TO_MERGE
 
